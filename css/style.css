@@ -1,0 +1,508 @@
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/banner.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    max-width: 100%;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);  
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 0 100px;
+    padding-top: 50px;
+}
+
+.logo {
+    z-index: 2;
+}
+
+.logo img:first-child {
+    margin-right: 15px;
+}
+
+h1 {
+    max-width: 1140px;
+    text-align: center;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 60px;
+    z-index: 2;
+}
+
+.down-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin-top: 45px;
+    border-radius: 50%;
+    background: rgba(250, 250, 250, 0.3);
+    border: 10px solid rgba(50, 50, 50, 0.3);
+}
+
+.down-btn {
+    z-index: 5;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.services h2, .video h2 {
+    position: relative;
+    color: #2d2d2d;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.services h2::after, .video h2::after {
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 75px;
+    max-width: 170px;
+    width: 60%;
+    height: 3px;
+    background:#c49b1d;
+}
+
+.services-list {
+    max-width: 1050px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 275px;
+    width: 30px;
+}
+
+.service img {
+    height: 100px;
+}
+
+.service h3 {
+    color: #c49b1d;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.service p {
+    margin-top: 25px;
+    color: #2d2d2d;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.meeting {
+    margin-top: 70px;
+    background: #2f3506;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px 0;
+    padding-right: 10%;
+}
+
+.meeting .picture {
+    margin-top: -140px;
+}
+
+.content-wrap {
+    max-width: 70%;
+    width: 50%;
+    color: #ffffff;
+}
+
+.content h2 {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.content p {
+    margin-top: 40px;
+    color: #ffffff;
+    font-family: "Open Sans";   
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.book {
+    margin-top: 45px;
+    padding: 18px 30px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: none;
+    background-color: #c49b1d;
+}
+
+.under-meeting {
+    display: flex;
+    justify-content: center;
+}
+
+.under-meeting ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+
+.under-meeting li {
+    display: flex;
+    align-items: center;
+    min-width: 40%;
+    margin-top: 50px;
+}
+
+.under-meeting h4 {
+    color: #2d2d2d;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.video {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100vw;
+}
+
+.video-window {
+    max-width: 900px;
+    width: 70%;
+    height: 500px;
+    margin-top: 75px;
+}
+
+.logos {
+    padding: 55px 0;
+    width: 100%;
+}
+
+.logos ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.order-wrap {
+    display: flex;
+    background: #2f3506;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    
+}
+
+.order-wrap h2 {
+    max-width: 1000px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 50px;
+    padding: 50px 65px;
+    background: #ffffff;
+}
+
+#page-region {
+    display: none;
+}
+
+.order .name {
+    color: #2d2d2d;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+.meeting-duration {
+    color: #2d2d2d;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+.time img {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+
+.order-inner {
+    text-align: right;
+    display: flex;
+}
+
+.calendly-inline-widget {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);    
+    border-radius: 5px;
+    border: 1px solid #707070;
+    min-width:420px;
+    height:630px;
+}
+
+.basement {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.license {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media (max-width: 1380px) {
+    .meeting {
+        padding-right: 3%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .picture img {
+        width: 470px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .meeting {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    
+    .meeting .picture {
+        margin-top: -100px;
+    }
+    
+    .picture img {
+        width: 370px;
+    }
+    
+    .content h2 {
+        font-size: 30px;
+    }
+    
+    .content-desktop {
+        display: none;
+    }
+    
+    .content p {
+        margin-top: 20px;
+    }
+    
+    .under-meeting {
+        padding: 15px;
+        justify-content: center;
+    }
+    
+    .under-meeting li {
+        min-width: 50%;
+    }
+    
+    .under-meeting h4 {
+        font-size: 16px;
+    }
+    
+    .book {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 800px) {
+    .meeting {
+        padding: 15px;
+        padding-left: 0;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 40px;    
+    }
+    
+    .services h2, .video h2 {
+        font-size: 20px;
+    }
+    
+    .services h2::after, .video h2::after {
+        height: 2px;
+    }
+    
+    .service h3 {
+        font-size: 18px;
+    }
+    
+    .logos li {
+        width: 30%;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .meeting {
+        justify-content: center;
+        padding: 15px;
+    }
+    
+    .content-wrap {
+        width: auto;
+    }
+    
+    .content {
+        text-align: center;
+    }
+    
+    .book {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 750px) {
+    .banner {
+        background: url(../img/banner-mobile.jpg);
+        background-size: cover;  
+    }
+
+    .under-meeting ul {
+        justify-content: center;
+    }
+    .under-meeting li {
+        min-width: 50%;
+        flex-direction: column;
+    }
+
+    .under-meeting h4 {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .banner {
+        align-items: center;
+        padding: 15px;
+    }
+    
+    header {
+        position: static;
+        padding: 0;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    .under-meeting li {
+        width: 40%;
+        text-align: center;
+    }
+
+    .logos li {
+        width: 50%;
+    }
+
+    .calendly-inline-widget {
+        min-width:280px;
+        width: auto;
+        height: 530px;
+    }
+
+    .order-wrap {
+        padding: 15px;
+    }
+
+     .order-wrap h2 {
+        font-size: 28px;
+    }
+
+    .license {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 440px) {
+    .picture img {
+        width: 294px;
+    }
+    
+    .content h2 {
+        font-size: 28px;
+    }
+    
+    .content-desktop {
+        display: block;
+    }
+}
