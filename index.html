@@ -9,24 +9,23 @@
 </head>
 <body>
 	<main>
-		<div class="banner">
-			<header>
+		<div class="parallax-window banner"  data-parallax="scroll" data-image-src="img/banner.jpg" data-natural-height="100vh" data-position="0px 0px">
+			<div class="logo-wrap">
 				<div class="logo">
 					<img src="img/logo.png" alt="">
 					<img src="img/logo-title.png" alt="">
 				</div>
-			</header>
+			</div>
 			<h1>Lorem ipsum dolor sit consectetur adipiscing elit nullam sagittis.</h1>
 			<button class="down-btn">
 				<img src="img/arrow.png" alt="">
 				<img src="img/arrow.png" alt="">
 			</button>
-			<div class="mask"></div>
 		</div>
 		<div class="services">
 			<h2>Donec ut finibus velit</h2>
-			<div class="services-list">
-				<div class="service">
+			<ul class="services-list">
+				<li class="service">
 					<img src="img/service-1.png" alt="">
 					<h3>Service A</h3>
 					<p>
@@ -36,8 +35,8 @@
 						Maecenas massa sem, tincidunt a quam ut, 
 						tincidunt viverra purus suspendisse congue.
 					</p>
-				</div>
-				<div class="service">
+				</li>
+				<li class="service">
 					<img src="img/service-2.png" alt="">
 					<h3>Service B</h3>
 					<p>
@@ -47,8 +46,8 @@
 						Maecenas massa sem, tincidunt a quam ut, 
 						tincidunt viverra purus suspendisse congue.
 					</p>
-				</div>
-				<div class="service">
+				</li>
+				<li class="service">
 					<img src="img/service-3.png" alt="">
 					<h3>Service C</h3>
 					<p>
@@ -58,8 +57,8 @@
 						Maecenas massa sem, tincidunt a quam ut, 
 						tincidunt viverra purus suspendisse congue.
 					</p>
-				</div>
-			</div>
+				</li>
+			</ul>
 		</div>
 		<div class="meeting">
 			<div class="picture">
@@ -157,6 +156,8 @@
 			</div>
 		</div>
 	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/parallax.js-1.5.0/parallax.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
